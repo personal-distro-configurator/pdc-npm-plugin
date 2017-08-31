@@ -4,7 +4,7 @@ plugins:
     import:
       - ${pdcyml_settings_path_plugins}/pdc-npm-plugin/sh/npm.sh
     confirm:
-      - npm_plugin_confirm
+      - npmplugin_confirm
     execute:
       - npm_install
 
