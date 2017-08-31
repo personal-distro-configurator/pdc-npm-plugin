@@ -1,0 +1,13 @@
+--
+plugins:
+  steps:
+    import:
+      - ${pdcyml_settings_path_plugins}/pdc-npm-plugin/sh/npm.sh
+    confirm:
+      - npm_plugin_confirm
+    execute:
+      - npm_install
+
+npm:
+  install:
+    -
